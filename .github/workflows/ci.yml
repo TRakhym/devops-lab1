@@ -1,6 +1,10 @@
 name: CI Pipeline
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+      - feature-update
 
 jobs:
   build:
